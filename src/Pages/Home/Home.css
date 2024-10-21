@@ -1,0 +1,239 @@
+.imgBox {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid transparent;
+  box-shadow: 0px 0px 3px white;
+}
+
+.imgBox::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(to bottom right, rgb(152, 200, 255), rgb(184, 108, 255));
+  inset: 0px 80px;
+  animation: circle-animate 3s ease infinite;
+  transition: all linear 0.3s;
+}
+
+@keyframes circle-animate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(720deg);
+  }
+}
+
+
+.imgBox::before {
+  inset: 0px;
+  border: 3px dashed black;
+}
+
+.imgBox::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #111827;
+  z-index: 3;
+  inset: 4px;
+  border: 1px solid transparent;
+}
+
+
+.imgBox img {
+  position: absolute;
+  z-index: 4;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  padding: 10%;
+  object-fit: cover;
+}
+
+.animated-container {
+  height: 400px;
+}
+
+.animated-container .dynamic-box {
+  line-height: 60px;
+  overflow: hidden;
+}
+
+.animated-container .dynamic-text {
+  color: rgb(33, 200, 255);
+}
+
+.animated-container .dynamic-text::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 102%;
+  width: 102%;
+  background-color: #111827;
+  border-left: 2px solid lightblue;
+  animation: typewriter 4s steps(15) infinite;
+}
+
+.animated-container .dynamic-part-container h2 {
+  filter: drop-shadow(1px 1px 1px lightblue);
+  letter-spacing: 1px;
+}
+
+@keyframes typewriter {
+
+  50%,
+  70% {
+    left: 100%;
+  }
+
+  95%,
+  100% {
+    left: 0%;
+  }
+}
+
+@media (max-width: 800px) {
+  .imgBox {
+    height: 100px;
+    width: 100px;
+  }
+
+  .imgBox::before {
+    inset: 0px 20px;
+  }
+
+  .animated-container {
+    height: 200px;
+    padding: 0px 0px;
+  }
+
+  .animated-container .extra-icons {
+    display: none;
+  }
+
+  .animated-container .dynamic-part-container h2 {
+    font-size: 1rem;
+  }
+
+  .animated-container .dynamic-part-container {
+    width: 200px;
+  }
+
+  .animated-container .dynamic-box span:first-child {
+    font-size: 0.9rem;
+  }
+
+  .animated-container .dynamic-box .dynamic-text {
+    font-size: 1rem;
+    padding: 0;
+  }
+
+  .animated-container .dynamic-box {
+    line-height: 0;
+    margin: 0;
+  }
+
+  /* 2nd part */
+
+  .second-part-home {
+    margin-left: 10px;
+  }
+
+  .second-part-home .ex-links {
+    padding-left: 0;
+    justify-content: end;
+    padding-right: 10px;
+  }
+
+}
+
+@media (max-width: 900px) {
+  .extra-icons {
+    display: none;
+  }
+}
+
+/* 2nd part  */
+
+
+.second-part-home p {
+  color: lightblue;
+}
+
+.second-part-home div a {
+  color: #ddd;
+  display: block;
+  height: 50px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightseagreen;
+}
+
+/* skill section  */
+
+.home-page-container .skill-section h2 hr {
+  border: 0.1rem solid lightblue !important;
+}
+
+.home-page-container .skill-holder {
+  padding: 20px 0;
+}
+
+.home-page-container .skill-holder ul {
+  min-height: 100%;
+  width: 400px;
+}
+
+.home-page-container .skill-holder ul li {
+  width: 120px;
+  height: 120px;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.home-page-container .skill-holder .rectangle-img-box {
+  height: 100%;
+  width: auto;
+}
+
+.home-page-container .skill-holder .rectangle-img-box img {
+  height: 100%;
+  width: auto;
+  filter: drop-shadow(14px 10px 1px lightblue);
+}
+
+@media (max-width: 800px) {
+  .home-page-container .skill-holder {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+
+  .home-page-container .skill-holder .rectangle-img-box {
+    border-top: 2px solid lightblue;
+    padding-top: 20px;
+  }
+
+  .home-page-container .skill-holder ul {
+    max-width: 300px;
+    padding: 0;
+  }
+
+  .home-page-container .skill-holder ul li {
+    width: 100px;
+    height: 100px;
+    gap: 4px;
+  }
+}

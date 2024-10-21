@@ -1,0 +1,18 @@
+.about-page-container .who-am-i {
+  filter: drop-shadow(3px 2px 3px lightcyan);
+  letter-spacing: 2px;
+}
+
+.about-page-container .dreame-text {
+  font-style: italic;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  filter: drop-shadow(1px 1px white);
+}
+
+@media (max-width: 800px) {
+  .about-page-container .first-about-sec {
+    padding: 0 20px;
+  }
+
+}
