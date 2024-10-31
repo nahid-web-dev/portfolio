@@ -65,9 +65,10 @@ const Home = () => {
           <MdOutlineTurnSlightRight className=' text-3xl text-white inline-block' />
           <span className=' text-gray-50'>NEXT.JS</span>
         </div>
-        <p className=' text-md'>He crafts responsive websites and exploit!!<br /> where technologies meet creativity</p>
-        <div className='ex-links pl-56 flex'>
+        <p className=' text-md'>He crafts responsive websites || <br /> where technologies meet creativity</p>
+        <div className='ex-links pl-56 flex gap-1'>
           <Link to='/contact'>Contact me!!</Link>
+          <Link to='/resume.pdf' target='_blank'>Get Resume</Link>
         </div>
       </div>
 
@@ -140,11 +141,11 @@ const Home = () => {
                 </div>
               </div>
               <div className="project-card bg-gray-800 p-6 rounded-lg shadow-lg w-full sm:w-[48%] lg:w-[30%]">
-                <h3 className="text-2xl font-bold text-white">#Landing Page</h3>
+                <h3 className="text-2xl font-bold text-white">#Food Ordering Page</h3>
                 <p className="text-gray-400 mt-2">A full-stack art gallery platform with dynamic content, built using   <span className=' text-gray-200 underline'>React,</span> and Node.js.</p>
                 <div className='my-2'>
                   <h2 className='text-lg text-stone-200'>See :</h2>
-                  <Link to='https://naya-canvas.netlify.app/' target='_blank' className=' flex justify-end items-center gap-2 text-blue-300  text-lg underline'>Tomato<ImArrowUpRight2 /></Link>
+                  <Link to='https://foodorder-landing-page.netlify.app/' target='_blank' className=' flex justify-end items-center gap-2 text-blue-300  text-lg underline'>Tomato<ImArrowUpRight2 /></Link>
                 </div>
               </div>
               <div className="project-card bg-gray-800 p-6 rounded-lg shadow-lg w-full sm:w-[48%] lg:w-[30%]">
