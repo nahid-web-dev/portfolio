@@ -6,7 +6,7 @@ import { BiLogoMongodb } from 'react-icons/bi'
 import { IoLogoCss3 } from 'react-icons/io'
 import rectangle from '../../assets/rectangle.png'
 import { RiBootstrapLine, RiNextjsFill, RiNextjsLine } from 'react-icons/ri'
-import pic from '../../assets/pro_pic.jpg'
+import pic from '../../assets/pic2.png'
 import { FaHtml5, FaNodeJs, FaReact, FaGithub } from 'react-icons/fa'
 import { SiExpress, SiJavascript, SiTailwindcss, SiMongodb } from 'react-icons/si'
 import { MdEmail, MdOutlineTurnSlightRight } from 'react-icons/md';
