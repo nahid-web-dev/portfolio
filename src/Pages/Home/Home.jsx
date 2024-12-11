@@ -125,35 +125,39 @@ const Home = () => {
             <div className="flex flex-wrap justify-between gap-6">
 
               <div className="project-card bg-gray-800 p-6 rounded-lg shadow-lg w-full sm:w-[48%] lg:w-[30%]">
-                <h3 className="text-2xl font-bold text-white">#Art Gallery</h3>
-                <p className="text-gray-400 mt-2">A full-stack art gallery platform with dynamic content, built using   <span className=' text-gray-200 underline'>React,</span> and Node.js.</p>
+                <h3 className="text-2xl font-bold text-white">#Food Ordering Page</h3>
+                <p className="text-gray-400 mt-2">A full-stack art gallery platform with dynamic content, built using   <span className=' text-gray-200 underline'>REACT and Node.js.</span></p>
                 <div className='my-2'>
-                  <h2 className='text-lg text-stone-200'>See :</h2>
-                  <Link to='https://naya-canvas.netlify.app/' target='_blank' className=' flex justify-end items-center gap-2 text-blue-300  text-lg underline'>Naya Canvas<ImArrowUpRight2 /></Link>
+                  <h2 className='text-lg text-stone-200'>Visit :</h2>
+                  <Link to='https://sunnah-restaurant.netlify.app/' target='_blank' className=' flex justify-end items-center gap-2 text-blue-400  text-lg'>Sunnah<ImArrowUpRight2 /></Link>
                 </div>
               </div>
+
               <div className="project-card bg-gray-800 p-6 rounded-lg shadow-lg w-full sm:w-[48%] lg:w-[30%]">
                 <h3 className="text-2xl font-bold text-white">#E-commerce Platform</h3>
                 <p className="text-gray-400 mt-2">A full-stack <span className=' text-gray-200 underline'>NEXT.JS</span> application for managing products, orders, and user accounts with secure authentication.</p>
                 <div className='my-2'>
-                  <h2 className='text-lg text-stone-200'>See :</h2>
-                  <Link to='https://sleek-lifestyle-next.netlify.app/' target='_blank' className=' flex justify-end items-center gap-2 text-blue-300  text-lg underline'>Sleek Lifestyle<ImArrowUpRight2 /></Link>
+                  <h2 className='text-lg text-stone-200'>Visit :</h2>
+                  <Link to='https://sleek-lifestyle.com/' target='_blank' className=' flex justify-end items-center gap-2 text-blue-400  text-lg'>Sleek Lifestyle<ImArrowUpRight2 /></Link>
+                  <Link to='https://sleek-lifestyle.com/admin' target='_blank' className=' flex justify-end items-center gap-2 text-blue-400  text-lg '>Admin Panel<ImArrowUpRight2 /></Link>
                 </div>
               </div>
+
               <div className="project-card bg-gray-800 p-6 rounded-lg shadow-lg w-full sm:w-[48%] lg:w-[30%]">
-                <h3 className="text-2xl font-bold text-white">#Food Ordering Page</h3>
+                <h3 className="text-2xl font-bold text-white">#Art Gallery</h3>
                 <p className="text-gray-400 mt-2">A full-stack art gallery platform with dynamic content, built using   <span className=' text-gray-200 underline'>React,</span> and Node.js.</p>
                 <div className='my-2'>
-                  <h2 className='text-lg text-stone-200'>See :</h2>
-                  <Link to='https://foodorder-landing-page.netlify.app/' target='_blank' className=' flex justify-end items-center gap-2 text-blue-300  text-lg underline'>Tomato<ImArrowUpRight2 /></Link>
+                  <h2 className='text-lg text-stone-200'>Visit :</h2>
+                  <Link to='https://naya-canvas.netlify.app/' target='_blank' className=' flex justify-end items-center gap-2 text-blue-400  text-lg '>Naya Canvas<ImArrowUpRight2 /></Link>
                 </div>
               </div>
+
               <div className="project-card bg-gray-800 p-6 rounded-lg shadow-lg w-full sm:w-[48%] lg:w-[30%]">
                 <h3 className="text-2xl font-bold text-white">#Portfolio Website</h3>
                 <p className="text-gray-400 mt-2">A responsive personal portfolio built with React.js and styled with <span className=' text-gray-200 underline'>Tailwind</span> CSS.</p>
                 <div className='my-2'>
-                  <h2 className='text-lg text-stone-200'>See :</h2>
-                  <div className=' flex justify-end items-center gap-2  text-lg '>You are already here!</div>
+                  <h2 className='text-lg text-stone-200'>Visit :</h2>
+                  <div className=' flex justify-end items-center gap-2 text-lg '>You are already here!</div>
                 </div>
               </div>
 

@@ -8,14 +8,14 @@
   box-shadow: 0px 0px 3px white;
 }
 
-.imgBox::before {
+/* .imgBox::before {
   content: "";
   position: absolute;
   background: linear-gradient(to bottom right, rgb(152, 200, 255), rgb(184, 108, 255));
   inset: 0px 80px;
   animation: circle-animate 3s ease infinite;
   transition: all linear 0.3s;
-}
+} */
 
 @keyframes circle-animate {
   0% {
@@ -28,10 +28,10 @@
 }
 
 
-.imgBox::before {
+/* .imgBox::before {
   inset: 0px;
-  border: 3px dashed black;
-}
+  border: 3px dotted white;
+} */
 
 .imgBox::after {
   content: "";
@@ -105,9 +105,9 @@
     width: 100px;
   }
 
-  .imgBox::before {
+  /* .imgBox::before {
     inset: 0px 20px;
-  }
+  } */
 
   .animated-container {
     height: 200px;

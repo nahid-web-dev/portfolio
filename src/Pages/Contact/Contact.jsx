@@ -33,7 +33,7 @@ const Contact = () => {
         </p>
         <div className='msg-box flex flex-col justify-evenly items-center gap-4 py-10 text-stone-300'>
           <h2 className=' text-center text-stone-200 text-xl mb-5'>Message me here</h2>
-          <Link to='https://wa.me/880131748895'><FaWhatsapp />What'sApp</Link>
+          <Link to='https://wa.me/880131748895' target='_blank'><FaWhatsapp />What'sApp</Link>
           <a href='mailto:nahid.web.creator@gmail.com'><MdEmail />Email</a>
         </div>
       </div>
